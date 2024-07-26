@@ -56,3 +56,35 @@ export const cardBar = [
       shortcuts: ['⌘', 'D']
     }]
   ]
+
+export const moreModal = [
+  [
+    {
+      label: "Profile",
+      avatar: {
+        src: "https://avatars.githubusercontent.com/u/739984?v=4",
+      },
+    },
+  ],
+  [
+    {
+      label: "Archive",
+      icon: "i-heroicons-archive-box-20-solid",
+    },
+    {
+      label: "Saved",
+      icon: "mdi:bookmark",
+    },
+    {
+      label: "Settings",
+      icon: "mdi:cog",
+    },
+  ],
+  [
+    {
+      label: "Logout",
+      icon: "ooui:log-out-ltr",
+      shortcuts: ["⌘", "D"],
+    },
+  ],
+];
