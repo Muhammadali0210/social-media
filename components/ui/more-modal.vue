@@ -5,7 +5,7 @@ import { moreModal } from '~/const/const';
 <template>
   <UDropdown :items="moreModal" :popper="{ placement: 'bottom-start' }">
     <div class="flex items-center gap-3 cursor-pointer">
-      <UIcon name="ic:round-menu" size="24" /> <span class="text-sm">More</span>
+      <UIcon name="ic:round-menu" size="24" /> <span class="text-sm max-sm:hidden">More</span>
     </div>
   </UDropdown>
 </template>

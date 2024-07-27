@@ -18,11 +18,6 @@ export const tabs = [
         name: 'Profile',
         path: '/profile',
         icon: 'mdi:account'
-    },
-    {
-        name: 'Settings',
-        path: '/setting',
-        icon: 'mdi:cog'
     }
 ]
 
@@ -88,3 +83,17 @@ export const moreModal = [
     },
   ],
 ];
+
+export const profileTabs = [{
+  label: 'Posts',
+  icon: 'mdi:card-account-details-outline',
+  slot: 'all'
+}, {
+  label: 'Saved',
+  icon: 'mdi:bookmark-multiple-outline',
+  slot: 'posts'
+}, {
+  label: 'Tab3',
+  icon: 'i-heroicons-eye-dropper',
+  slot: 'texts'
+}]

@@ -31,7 +31,9 @@ const onDislike = () => {
       <UAvatar alt="M" size="md" class="mr-4" />
       <div>
         <div class="flex items-center gap-2">
-          <span class="font-semibold">@muhammadali0210</span>
+          <NuxtLink to="/profile">
+            <span class="font-semibold">@muhammadali0210</span>
+          </NuxtLink>
           <span class="text-sm text-slate-700 dark:text-slate-200">- 1 day ago</span>
         </div>
         <div class="flex items-center gap-2 mt-2 text-slate-700 dark:text-slate-200">

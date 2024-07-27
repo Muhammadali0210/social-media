@@ -12,15 +12,17 @@ const isBookmark = ref(false);
     <div class="flex justify-between gap-2">
       <div>
         <div class="flex justify-between items-center mb-3">
-          <div class="cursor-pointer flex gap-2">
-            <div>
-              <UAvatar alt="M" size="lg" />
+          <NuxtLink to="/profile">
+            <div class="cursor-pointer flex gap-2">
+              <div>
+                <UAvatar alt="M" size="lg" />
+              </div>
+              <div>
+                <div class="text-md dark:text-white text-dark font-bold">Muhammadali</div>
+                <div class="text-sm dark:text-gray-500 text-gray-500">@muhammadali0210</div>
+              </div>
             </div>
-            <div>
-              <div class="text-md dark:text-white text-dark font-bold">Muhammadali</div>
-              <div class="text-sm dark:text-gray-500 text-gray-500">@muhammadali0210</div>
-            </div>
-          </div>
+          </NuxtLink>
           <div class="cursor-pointer">
             <UDropdown :items="cardBar" :popper="{ placement: 'bottom-start' }">
               <UIcon name="ri:more-fill" size="22" />
