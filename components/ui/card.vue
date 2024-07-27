@@ -51,7 +51,7 @@ const isBookmark = ref(false);
             </div>
           </div>
           <div @click="isBookmark = !isBookmark" class="cursor-pointer">
-            <UIcon v-if="isBookmark" name="mdi:bookmark-outline" size="22" />
+            <UIcon v-if="!isBookmark" name="mdi:bookmark-outline" size="22" />
             <UIcon v-else name="mdi:bookmark" size="22" />
           </div>
         </div>

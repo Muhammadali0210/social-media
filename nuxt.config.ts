@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ["@nuxt/ui", "@nuxt/image", 'nuxt-icons']
+  modules: ["@nuxt/ui", "@nuxt/image", 'nuxt-icons'],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
 })

@@ -21,7 +21,7 @@ const isImg = ref(false);
         </div>
         
         <UTextarea placeholder="What's news?" ></UTextarea>
-        <template v-if="isImg" >
+        <template v-if="!isImg" >
             <div class="mt-3 flex relative w-[40px] cursor-pointer h-[40px]" @click="isImg = !isImg">
                 <input type="file" style="width: 40px; height: 40px; opacity: 0; z-index: 10; cursor: pointer; position: absolute; ">
                 <UIcon class="absolute z-5" name="material-symbols:add-photo-alternate-outline-rounded" size="40" />
@@ -39,10 +39,7 @@ const isImg = ref(false);
             </div>
         </template>
 
-        <div class="flex gap-2 mt-4 w-full justify-end">
-            <UButton variant="solid" color="gray">Cancel</UButton>
-            <UButton>Post</UButton>
-        </div>
+        
       </div>
     </div>
   </UCard>

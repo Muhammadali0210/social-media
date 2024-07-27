@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="max-sm:h-[10vh] max-sm:w-[100vw]                    sm:h-screen bg-slate-100 dark:bg-slate-900 sm:border-r sm:border-slate-400 sm:dark:border-slate-600 flex sm:flex-col justify-between sm:p-10">
+    <div class="max-sm:h-[10vh] max-sm:w-[100vw]                    sm:h-screen bg-slate-100 dark:bg-slate-900 sm:border-r max-sm:border-t border-slate-400 dark:border-slate-600 flex sm:flex-col justify-between sm:p-10">
         <NuxtLink to="/" class="max-sm:hidden">
             <div class="logo flex items-center gap-3">
                 <img src="/public/favicon.ico" alt="" width="40" h="40">

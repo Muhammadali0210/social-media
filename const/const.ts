@@ -15,6 +15,11 @@ export const tabs = [
         icon: 'mdi:add-box'
     },
     {
+      name: "Message",
+      path: '/message',
+      icon: 'material-symbols:android-messages-outline'
+    },
+    {
         name: 'Profile',
         path: '/profile',
         icon: 'mdi:account'
