@@ -11,10 +11,9 @@ defineProps({
         <h1 class="text-2xl font-medium">{{ name }}</h1>
         
         <div class="flex gap-2 items-center">
-          <SharedColorMode />
-          <div class="sm:hidden">
-            <UiMoreModal />
-          </div>
+          <NuxtLink to="/notification">
+            <UIcon name="ic:outline-notifications"  size="24" />
+          </NuxtLink>
         </div>
     </div>
 </template>

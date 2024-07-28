@@ -1,3 +1,4 @@
+
 export const tabs = [
     {
         name: 'Home',
@@ -74,6 +75,10 @@ export const moreModal = [
     {
       label: "Saved",
       icon: "mdi:bookmark",
+    },
+    {
+      label: "Color Mode",
+      icon: "mdi:theme-light-dark",
     },
     {
       label: "Settings",
